@@ -4,7 +4,6 @@ import Keyboard from "./components/Keyboard";
 import { createContext, useEffect, useState } from "react";
 import { boardDefault, generateWordSet } from "./Words";
 import GameOver from "./components/GameOver";
-import Letter from "./components/Letter";
 
 export const AppContext = createContext();
 
